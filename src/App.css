@@ -1,0 +1,45 @@
+.user_form {
+    display: block;
+    text-align: center;
+}
+
+.input_wrapper {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.input_wrapper label {
+    font-weight: 600;
+    width: 200px;
+    text-align: left;
+}
+
+.user_form button {
+    margin-top: 30px;
+    width: 200px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.matrix_box_container {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.box_btn_wrapper.active button {
+    background: red;
+}
+
+.box_btn_wrapper button {
+    background: unset;
+    cursor: pointer;
+    width: 80px;
+    margin: 5px;
+    height: 50px;
+}
